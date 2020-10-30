@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <title>Document</title>
+</head>
+
+<style>
+body {
+  position: relative;
+  height: 100vh; }
+
+.btn-container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  background-color: #ef5350;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 60px;
+  overflow: hidden;
+  transition: all .3s;
+  cursor: pointer; }
+  .btn-container:hover {
+    width: 120px; }
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px; }
+
+.text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 60px; }
+</style>
+<body>
+    <div class="btn-container">
+        <div class="text">Next</div>
+        <div class="arrow"><i class="fa fa-angle-double-right" style="font-size:36px;color:white"></i></i></div>
+    </div>
+</body>
+</html>
